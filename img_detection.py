@@ -21,13 +21,13 @@ counter = 0
 
 
 lcd.init()
-lcd.rotation(2)
+lcd.rotation(0)
 sensor.reset()
 sensor.set_pixformat(sensor.RGB565)
 sensor.set_framesize(sensor.QVGA)
-sensor.set_vflip(1)
-sensor.set_hmirror(1)
-sensor.set_vflip(1)
+sensor.set_vflip(0)
+sensor.set_hmirror(0)
+sensor.set_vflip(0)
 sensor.run(1)
 clock = time.clock()
 
